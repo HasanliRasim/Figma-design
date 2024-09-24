@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  padding: 15px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_nav {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.header_nav_ul {
+  display: flex;
+}
+.header_nav_ul_list {
+  list-style-type: none;
+  margin-right: 30px;
+}
+.header_nav_ul_link {
+  color: #565f6d;
+  text-decoration: none;
+}
+.header_nav_btn {
+  padding: 5px 10px;
+  border-radius: 9px;
+  border: none;
+  background-color: #111827;
+  color: #fff;
+}
+
+.main_section_sagar {
+  display: flex;
+  padding: 70px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_section_sagar_article {
+  margin-bottom: 40px;
+}
+.main_section_sagar_article_name {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main_section_sagar_article_info {
+  color: #565f6d;
+  width: 65%;
+}
+.main_section_sagar_article_description {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.main_section_sagar_article_description_place {
+  color: #565f6d;
+}
+.main .div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main .span {
+  color: #717985;
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  padding: 5px 15px;
+}
+.main_section_about {
+  display: flex;
+  padding: 70px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_section_about_info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 80px;
+}
+.main_section_about_info_text {
+  width: 40%;
+}
+.main_section_about_info_text_title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main .div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main .span {
+  color: #717985;
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  padding: 5px 15px;
+}
+.main_section_skills {
+  padding: 30px 80px;
+}
+.main_section_skills_title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.main_section_skills_cards {
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main_section_skills_cards_skill {
+  margin-right: 40px;
+}/*# sourceMappingURL=style.css.map */
